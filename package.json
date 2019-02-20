@@ -1,0 +1,25 @@
+{
+  "name": "guru",
+  "version": "1.0.0",
+  "main": "conf.js",
+  "scripts": {
+    "test": "protractor ./conf.js --directConnect=true",
+    "debug": "node --inspect=\"127.0.0.1:5858\" ./node_modules/.bin/protractor ./conf.js --seleniumAddress=\"http://localhost:4444/wd/hub\"",
+    "test-localselenium": "protractor ./conf.js --seleniumAddress=\"http://localhost:4444/wd/hub\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odziu/js.git"
+  },
+  "author": "odziu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odziu/js/issues"
+  },
+  "homepage": "https://github.com/odziu/js#readme",
+  "description": "0_o",
+  "devDependencies": {
+    "jasmine-reporters": "^2.0.0",
+    "jasmine2-reporter": "^0.2.0"
+  }
+}

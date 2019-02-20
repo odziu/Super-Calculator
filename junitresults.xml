@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Calculator" timestamp="2019-02-20T17:33:59" hostname="localhost" time="2.967" errors="0" tests="1" skipped="0" failures="0">
+  <testcase classname="Calculator" name="should calculate the sum of two numbers" time="2.961">
+  </testcase>
+ </testsuite>
+ <testsuite name="Calculator" timestamp="2019-02-20T17:34:02" hostname="localhost" time="2.667" errors="0" tests="1" skipped="0" failures="0">
+  <testcase classname="Calculator" name="should substract one number from another" time="2.663">
+  </testcase>
+ </testsuite>
+</testsuites>
