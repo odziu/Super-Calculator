@@ -19,4 +19,4 @@ exports.config = {
           };
           jasmine.getEnv().addReporter(new ConsoleReporter(console_reporter_options));
      }
-   };
+};
